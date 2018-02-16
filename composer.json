@@ -1,0 +1,20 @@
+{
+	"name" : "lcloss/page",
+	"type" : "library",
+	"description" : "Page system to use with RainTpl",
+	"keywords" : [
+		"Template system", "template", "php templating"
+	],
+	"homepage": "https://github.com/lcloss/Page",
+    "require": {
+        "rain/raintpl": "^3.1",
+        "php": ">=7.0"
+    },
+	"license" : "MIT",
+	"minimum-stability" : "dev",
+	"authors" : [{
+			"name" : "Luciano Closs",
+			"email" : "lcloss@gmail.com"
+		}
+	]
+}
