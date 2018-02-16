@@ -16,5 +16,10 @@
 			"name" : "Luciano Closs",
 			"email" : "lcloss@gmail.com"
 		}
-	]
+	],
+    "autoload": {
+        "psr-4": {
+            "": "."
+        }
+    }
 }
