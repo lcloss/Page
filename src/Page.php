@@ -1,6 +1,6 @@
 <?php
 
-namespace LCloss;
+namespace LCloss\Page;
 
 use Rain\Tpl;
 
