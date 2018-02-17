@@ -18,8 +18,8 @@
 		}
 	],
     "autoload": {
-        "psr-4": {
-            "LCloss\\": "src"
+        "psr-0": {
+            "LCloss": "src/"
         }
     }
 }
