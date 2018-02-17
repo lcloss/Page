@@ -13,7 +13,7 @@ class Page {
         'data'      => [],
     ];
     
-    public function __construct($opts = array(), $tpl_dir = "../app/views/front")
+    public function __construct($opts = array(), $tpl_dir = "/../app/views/front")
     {
         
         $this->options = array_merge($this->defaults, $opts);
@@ -22,7 +22,7 @@ class Page {
         $config = array(
             "tpl_dir"       => $_SERVER['DOCUMENT_ROOT'] . $tpl_dir . "/src/",
             "cache_dir"     => $_SERVER['DOCUMENT_ROOT'] . $tpl_dir . "/cache/",
-            "debug"         => false, // set to false to improve the speed
+            "debug"         => true, // set to false to improve the speed
         );
         
         Tpl::configure( $config );
