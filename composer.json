@@ -1,11 +1,11 @@
 {
-	"name" : "lcloss/page",
+	"name" : "lcloss/php-page",
 	"type" : "library",
 	"description" : "Page system to use with RainTpl",
 	"keywords" : [
 		"Template system", "template", "php templating"
 	],
-	"homepage": "https://github.com/lcloss/page",
+	"homepage": "https://github.com/lcloss/php-page",
     "require": {
         "rain/raintpl": "^3.1",
         "php": ">=7.0"
