@@ -45,6 +45,8 @@ app/views/front/src/home.html
 In your application, use:
 
 ```
+use \LCloss\Page\Page;
+
 $page = new Page();
 $page->setTpl('home', [
 	'title'	 => 'Title of your Project',
@@ -64,6 +66,8 @@ Type the following code:
 Use as follow:
 
 ```
+use \LCloss\Page\Page;
+
 $page = new Page();
 $page->setTpl('hello', [
 	'username'	 => 'Frederico Ferdinando',
@@ -73,7 +77,7 @@ $page->setTpl('hello', [
 You will see like this:
 
 ```
-Hello Frederico Ferdinando!</p>
+Hello Frederico Ferdinando!
 ```
 
 ## Built With
