@@ -1,4 +1,4 @@
-# Page
+# php-page
 
 A simple Class to work with RainTpl (Template System)
 
@@ -16,13 +16,13 @@ This project is intended to be incorporated into another project, so the minimum
 Installation with Git:
 
 ```
-git clone https://github.com/lcloss/Page.git
+git clone https://github.com/lcloss/php-page.git
 ```
 
 Instalação com o Composer:
 
 ```
-composer require lcloss\page
+composer require lcloss/php-page
 ```
 
 ## Running the tests
@@ -86,13 +86,13 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [GitHub](https://github.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/lcloss/Page/tags). 
+We use [GitHub](https://github.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/lcloss/php-page/tags). 
 
 ## Authors
 
 * **Luciano Closs** - *Initial work* - [LCloss](https://github.com/lcloss)
 
-See also the list of [contributors](https://github.com/lcloss/Page/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/lcloss/php-page/contributors) who participated in this project.
 
 ## License
 
